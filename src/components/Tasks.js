@@ -3,7 +3,7 @@ import {Checkbox} from './Checkbox'
 import { useTask } from '../hooks';
 
 export  function Tasks() {
-    const {tasks} = useTask(1);
+    const {tasks} = useTask('1');
 
     console.log('This is teh task')
     console.log(tasks);

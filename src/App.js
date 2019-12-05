@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import logo from './logo.svg';
-import './assets/vendor_components/fastclick/lib/fastclick.js';
 import {Header} from './components/layout/Header'
 
 import './App.css';
